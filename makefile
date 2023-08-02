@@ -10,7 +10,7 @@ OBJ = $(SRC:.c=.o)
 all: build clean
 
 build: $(OBJ)
-	@if not exist ./out mkdir ./out
+	@if not exist "./out" mkdir "./out"
 	@gcc $(CFLAGS) $(OBJ) -o ./out/$(NAME)
 
 clean:
