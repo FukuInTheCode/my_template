@@ -1,6 +1,7 @@
 #pragma once
 #define MYH
 
-// your lib here
+#include <stdio.h>
+#include "./test.h"
 
 void hello(void);
